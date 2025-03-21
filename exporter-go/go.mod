@@ -1,6 +1,9 @@
 module github.com/mcelep/opa_scorecard_exporter
 
-go 1.23
+go 1.23.0
+
+toolchain go1.23.4
+
 replace github.com/imdario/mergo => github.com/imdario/mergo v0.3.16
 
 require (
